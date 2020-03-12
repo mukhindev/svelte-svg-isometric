@@ -8,18 +8,19 @@ let colors = ['#48B056', '#008A25', '#2B9D3D']
 
 <style>
 svg {
+	width: 100%;
 	background-color: rgb(196, 231, 182);
 }
 </style>
 
 <div class="container">
 	<div class="grid">
-		<div class="col-6">
+		<div class="col-9 sm-12">
 			<svg viewBox="-75 -100 200 200">
 				<Box {position} {size} {colors} />
 			</svg>
 		</div>
-		<div class="col-6">
+		<div class="col-3 sm-12">
 			<div>Позиция</div>
 			<label>
 				<span>x</span>

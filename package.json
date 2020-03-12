@@ -1,6 +1,9 @@
 {
-  "name": "svelte-app",
+  "name": "svelte-isometric",
   "version": "1.0.0",
+  "private": true,
+  "author": "Sergey Mukhin",
+  "license": "ISC",
   "scripts": {
     "build": "rollup -c",
     "dev": "rollup -c -w",
