@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap&subset=cyrillic');
+
+html {
+  font-size: 15px;
+  font-weight: normal;
+  font-family: 'Open Sans', sans-serif;
+}
+
+body {
+  font-size: 1rem;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  scroll-behavior: smooth;
+  background-color: #FFF;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  margin-top: 0;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  font-weight: bold;
+  display: block;
+  width: 100%;
+}
+
+input {
+  height: 2rem;
+  font-size: 1rem;
+  padding: 0.5rem;
+}
+
+label {
+  display: flex;
+  align-items: center;
+  margin: 0.5rem;
+}
+
+label > input {
+  width: 100%;
+}
+
+label > span {
+	margin-right: 0.5rem;
+}
+
+p {
+  line-height: 1.3rem;
+}
+
+a {
+  color: #008A25;
+}
+
+.text-white {
+  color: white;
+}
+
+.text-center {
+  text-align: center;
+}
+
+i {
+  font-size: 1.5rem;
+  color: #008A25;
+}
+
+div {
+  transition: all 0.5s;
+}
+
+.container {
+  padding: 4rem;
+  margin: auto;
+  max-width: 1280px;
+}
+
+.card {
+  border: 2px solid #008A25;
+  padding: 1rem 0.5rem 1.5rem 0.5rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-gap: 1rem;
+}
+
+.col-2 {
+  grid-column: span 2;
+}
+
+.col-3 {
+  grid-column: span 3;
+}
+
+.col-4 {
+  grid-column: span 4;
+}
+
+.col-6 {
+  grid-column: span 6;
+}
+
+.col-12 {
+  grid-column: span 12;
+}
+
+.flex {
+  display: flex;
+}
+
+.align-items-center {
+  width: auto;
+  margin: auto;
+  align-items: center;
+}
+
+.ml-1 {
+  margin-left: 1rem;
+}
+
+.ml-2 {
+  margin-left: 2rem;
+}
+
+.ml-3 {
+  margin-left: 3rem;
+}
+
+.mr-1 {
+  margin-right: 1rem;
+}
+
+.mr-05 {
+  margin-right: 0.5rem;
+}
+
+.mt-2 {
+  margin-top: 2rem;
+}
+
+.mb-05 {
+  margin-bottom: 0.5rem;
+}
+
+.mb-2 {
+  margin-bottom: 2rem;
+}
+
+.mb-4 {
+  margin-bottom: 4rem;
+}
+
+@media screen and (max-width: 992px) {
+  .lg-12 {
+    grid-column: span 12
+  }
+
+  .lg-6 {
+    grid-column: span 6
+  }
+
+  .lg-4 {
+    grid-column: span 4
+  }
+
+  .lg-3 {
+    grid-column: span 3
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .md-12 {
+    grid-column: span 12
+  }
+
+  .md-6 {
+    grid-column: span 6
+  }
+
+  .md-4 {
+    grid-column: span 4
+  }
+
+  .md-3 {
+    grid-column: span 3
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .sm-12 {
+    grid-column: span 12
+  }
+
+  .sm-6 {
+    grid-column: span 6
+  }
+
+  .container {
+    padding: 2rem 2rem;
+  }
+}
