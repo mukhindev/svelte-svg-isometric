@@ -16,7 +16,7 @@ svg {
 <div class="container">
 	<div class="grid">
 		<div class="col-9 sm-12">
-			<svg viewBox="-75 -100 200 200">
+			<svg viewBox="-100 -100 200 200">
 				<Box {position} {size} {colors} />
 			</svg>
 		</div>
